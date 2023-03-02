@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 export async function getStaticProps() {
+  /* server에서만 보이는 부분 */
   return {
     props: {
       post: {
