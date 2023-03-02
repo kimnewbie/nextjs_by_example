@@ -12,7 +12,7 @@ function HomePage() {
                 <h1>My Blog</h1>
                 <ul>
                     <li>
-                        <Link href='/post/first-post'>
+                        <Link href='/posts/first-post'>
                             First Post
                         </Link>
                     </li>
