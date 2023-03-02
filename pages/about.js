@@ -3,7 +3,9 @@ import Head from 'next/head';
 function AboutPage() {
     return (
         <>
-            <Head>About - My Blog</Head>
+            <Head>
+                <title>About - My Blog</title>
+            </Head>
             <main>
                 <h1>About</h1>
             </main>
