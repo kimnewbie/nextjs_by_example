@@ -1,8 +1,10 @@
+import NavBar from "../components/NavBar";
+import '../styles/globals.css';
+
 /**
  * 공통된 레이아웃
  */
 
-import NavBar from "../components/NavBar";
 
 function App({ Component, pageProps }) {
     return (
