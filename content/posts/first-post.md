@@ -1,4 +1,7 @@
-# First postMessage
+---
+date: "2023-11-11"
+title: "First Post"
+---
 
 This is my first post, written in Markdown
 
