@@ -1,11 +1,11 @@
-function HomePage() {
+function AboutPage() {
     return (
         <>
             <main>
-                <h1>My Blog</h1>
+                <h1>About</h1>
             </main>
         </>
     )
 }
 
-export default HomePage;
+export default AboutPage;
