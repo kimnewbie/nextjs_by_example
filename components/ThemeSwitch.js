@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import DarkTheme from './DarkTheme';
 
+
 function loadDarkMode() {
     if (typeof localStorage === 'undefined') {
         return false;
@@ -13,6 +14,8 @@ function ThemeSwitch() {
     const [darkMode, setDarkMode] = useState(loadDarkMode);
 
     const handleClick = () => {
+        // server side라서 localStorage에 저장해주어야 한다.
+        // darkMode가 boolean이라 JSON.stringify를 해줌
         localStorage.setItem('darkMode', JSON.stringify(!darkMode));
         setDarkMode(!darkMode);
     };
