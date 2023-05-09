@@ -5,6 +5,7 @@ function HomePage() {
         <>
             <Head>
                 <title>My Blog</title>
+                {/* <meta name='description' value='nextjs blog for tutorial' /> */}
             </Head>
             <main>
                 <h1>My Blog</h1>
